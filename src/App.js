@@ -84,9 +84,6 @@ const App = () => {
               e cada desafio superado. Cada momento ao seu lado é um presente</p>
    
             <button onClick={handleContinue}>Continuar</button>
-            <br/>
-            <br/>
-            <img src="img4.jpg" alt="Imagem 4" />
           </>
         )}
 
@@ -124,9 +121,7 @@ const App = () => {
             </p>
    
             <button onClick={handleContinue}>Continuar</button>
-            <br/>
-            <br/>
-            <img src="img8.jpg" alt="Imagem 8" />
+
           </>
         )}
         {page === 5 && resposta === 'nao' && (
@@ -171,7 +166,7 @@ const App = () => {
         {page === 7 && resposta === 'sim' && (
           <>
             <h1>UHUULLL!!!</h1>
-            <img src="img10.jpg" alt="Imagem 9" />
+            <img src="img10.jpeg" alt="Imagem 9" />
 
             <p>Agora é hora de comemorarmos juntos!</p>
             <p>É muito obrigado por tudo que você é!</p>
